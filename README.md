@@ -11,7 +11,7 @@
 
 ## Features
 
-- **Multi-Model Support**: Works with idefics, Qwen2.5-VL, LLaVA-Interleave, and more
+- **Multi-Model Support**: Works with idefics, Qwen3-VL, LLaVA-Interleave, and more
 - **Flexible Architecture**: Easy to adapt to new multimodal models
 - **Multiple Shift Strategies**: Supports various in-context learning methods
 
@@ -20,8 +20,8 @@
 | Subdirectory | Supported Models |
 |--------------|------------------|
 | `hifi_code_idefics` | idefics-9b, idefics2-8b |
-| `hifi-code-qwenvl` | Qwen2.5-VL-7B-Instruct, Qwen3-VL-8B-Instruct |
-| `hifi-code-llava-interleave` | llava-interleave-qwen-7b, llava-v1.6-mistral-7b, llama3-llava-next-8b, llava-onevision-qwen2-7b |
+| `hifi-code-qwenvl` | Qwen3-VL-8B-Instruct |
+| `hifi-code-llava-interleave` | llava-interleave-qwen-7b |
 
 ## Setup
 
