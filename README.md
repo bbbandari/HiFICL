@@ -1,4 +1,4 @@
-<h1 align="center">HiFi-ID: High-Fidelity In-Context Demo Learning for Multimodal Models</h1>
+# HiFICL: High-Fidelity In-Context Learning for Multimodal Tasks
 
 <p align="center">
 <a href="https://arxiv.org/abs/XXXX.XXXXX">
@@ -7,7 +7,7 @@
 
 <img src="./assets/overview.png" alt="overview figure" style="display: block; margin: 0 auto; width: 90%;" />
 
-**HiFi-ID (High-Fidelity In-Context Demo)** is a framework that extends [MimIC](https://github.com/xxx/mimic) to support multiple multimodal models. By integrating lightweight learnable modules into different vision-language models, it demonstrates superior performance across various model architectures.
+**HiFICL (High-Fidelity In-Context Learning)** is a framework that extends [MimIC](https://github.com/xxx/mimic) to support multiple multimodal models. By integrating lightweight learnable modules into different vision-language models, it demonstrates superior performance across various model architectures.
 
 ## Features
 
@@ -86,7 +86,7 @@ Each subdirectory (`hifi_code_idefics`, `hifi-code-qwenvl`, `hifi-code-llava-int
 ### Key Files
 
 #### [`shift_encoder.py`](./src/shift_encoder.py)
-Implements the HiFi-ID attention heads (`AttnApproximator`) and shift mechanisms. The core innovation includes:
+Implements the HiFICL attention heads (`AttnApproximator`) and shift mechanisms. The core innovation includes:
 - `AttnApproximator`: Attention-based approximation for in-context demo effects
 - `AttnFFNShift`: Vector-based shift method (similar to LIVE)
 - `ShiftStrategy`: Configurable strategies including `NLICV_MLP_STATIC_SCALE` and `MULTI_HEAD`
