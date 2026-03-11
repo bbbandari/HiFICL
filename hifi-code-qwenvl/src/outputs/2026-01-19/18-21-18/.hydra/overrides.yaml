@@ -1,0 +1,8 @@
+- ckpt_path=/home/ubuntu1/mimic/hifi_final_code/hifi-code-llava-interleave/results/ckpt/lora_s14v2-idev2-r-16-llava-interleave-7b-ok_vqa-1000-1shot/epoch-4
+- model_name=llava-interleave-7b
+- data.name=ok_vqa
+- data.num_shot=0
+- data.num_query_samples=1000
+- encoder=lora
+- peft=lorav11
+- batch_size=1

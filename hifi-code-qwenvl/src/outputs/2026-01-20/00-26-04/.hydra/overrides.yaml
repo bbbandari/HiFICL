@@ -1,0 +1,5 @@
+- model_name=llava-interleave-7b
+- record_dir=/home/ubuntu1/mimic/hifi_final_code/hifi-code-llava-interleave/results/record/dora_s15v2-idev2-r-16-llava-interleave-7b-ok_vqa-1000-1shot
+- data.name=ok_vqa
+- data.num_shot=1
+- data.num_query_samples=1000

@@ -1,0 +1,5 @@
+- model_name=llava-interleave-7b
+- record_dir=/gz-data/v4-llava-interleave-geek/results/record/lora_s9v4-idev2-r-16-llava-interleave-7b-coco-500-1shot
+- data.name=coco
+- data.num_shot=1
+- data.num_query_samples=500

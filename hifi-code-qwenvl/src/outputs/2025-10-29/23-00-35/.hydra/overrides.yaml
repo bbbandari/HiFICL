@@ -1,0 +1,5 @@
+- model_name=llava-interleave-7b
+- record_dir=/root/autodl-tmp/v4-llava-interleave/results/record/fidel_v3-llava-interleave-7b-vqav2-200-8shot
+- data.name=vqav2
+- data.num_shot=8
+- data.num_query_samples=200

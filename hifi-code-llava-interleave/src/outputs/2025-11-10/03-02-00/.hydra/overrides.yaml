@@ -1,0 +1,5 @@
+- model_name=llava-interleave-7b
+- record_dir=/gz-data/v4-llava-interleave-geek/results/record/mimic_s8v3-llava-interleave-7b-coco-300-8shot
+- data.name=coco
+- data.num_shot=8
+- data.num_query_samples=300

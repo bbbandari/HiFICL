@@ -1,0 +1,7 @@
+model_strategy: Strategy.LM_LOSS
+cls:
+  _target_: src.shift_encoder.AttnApproximatorDirect_final
+  attn_strategy: "ShiftStrategy.VECTOR_SHIFT | ShiftStrategy.LEARNABLE_SHIFT_SCALE | ShiftStrategy.MULTI_HEAD"
+  ffn_strategy: "ShiftStrategy.RECORD_HIDDEN_STATES"
+  num_virtual_tokens: 8
+  lora_rank: 8

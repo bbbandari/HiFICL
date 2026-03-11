@@ -1,0 +1,5 @@
+- model_name=llava-interleave-7b
+- record_dir=/root/autodl-tmp/v4-llava-interleave/results/record/fidel_v8-llava-interleave-7b-ok_vqa-1000-8shot
+- data.name=ok_vqa
+- data.num_shot=8
+- data.num_query_samples=1000

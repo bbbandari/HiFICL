@@ -1,0 +1,8 @@
+- ckpt_path=/root/autodl-tmp/origin_exp_idv1/results/ckpt/mimic_v3-idefics-9b-coco-1000-8shot/epoch-7
+- model_name=idefics-9b
+- data.name=coco
+- data.num_shot=8
+- data.num_query_samples=1000
+- encoder=mimic
+- peft=mimic
+- eval_all_epochs=True

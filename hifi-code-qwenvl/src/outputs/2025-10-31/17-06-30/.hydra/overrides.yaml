@@ -1,0 +1,5 @@
+- model_name=llava-interleave-7b
+- record_dir=/root/autodl-tmp/v4-llava-interleave/results/record/lora-v1-idev2-r-16-llava-interleave-7b-ok_vqa-1000
+- data.name=ok_vqa
+- data.num_shot=0
+- data.num_query_samples=1000

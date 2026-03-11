@@ -1,0 +1,5 @@
+- model_name=llava-v1.6
+- record_dir=/root/autodl-tmp/v3/results/record/fidel_v1-llava-v1.6-vqav2-200-8shot
+- data.name=vqav2
+- data.num_shot=8
+- data.num_query_samples=200

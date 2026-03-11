@@ -1,0 +1,8 @@
+- runname=fidel_s3v1
+- model_name=idefics2-8b-base
+- data.num_query_samples=1000
+- data.name=ok_vqa
+- data.num_shot=0
+- encoder=mimic_v19
+- peft=mimic_v4
+- epochs=5

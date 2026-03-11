@@ -1,0 +1,5 @@
+- model_name=llava-interleave-7b
+- record_dir=/gz-data/v4-llava-interleave-geek/results/record/lora_s6v1-idev2-r-16-llava-interleave-7b-ok_vqa-1000-1shot
+- data.name=ok_vqa
+- data.num_shot=1
+- data.num_query_samples=1000

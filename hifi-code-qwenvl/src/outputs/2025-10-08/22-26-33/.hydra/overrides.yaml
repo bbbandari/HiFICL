@@ -1,0 +1,5 @@
+- model_name=idefics-9b
+- record_dir=/root/autodl-tmp/origin_exp_v6/results/record/mimic_v13-idefics-9b-vqav2-1000-8shot
+- data.name=vqav2
+- data.num_shot=8
+- data.num_query_samples=1000

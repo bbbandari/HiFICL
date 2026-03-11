@@ -1,0 +1,8 @@
+- ckpt_path=/gz-data/v4-llava-interleave-geek/results/ckpt/live_s6v1-llava-interleave-7b-ok_vqa-1000-8shot/epoch-0
+- model_name=llava-interleave-7b
+- data.name=ok_vqa
+- data.num_shot=8
+- data.num_query_samples=1000
+- encoder=licv
+- peft=licv
+- batch_size=1

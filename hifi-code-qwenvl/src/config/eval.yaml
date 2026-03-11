@@ -1,0 +1,19 @@
+defaults:
+  - _self_
+  - exp_settings
+
+resume: True
+query_set: ${data.name}
+query_set_size: null # the number of samples to evaluate. if set to null, all samples will be evaluated.
+support_set: ${data.name}
+ckpt_path: null
+batch_size: 4  # Reduced from 16 to save memory
+iterations: null
+max_skip_oom: 5 # Allow skipping OOM samples
+eval_all_epochs: false  # 是否评估所有轮次的检查点
+generation_args:
+  num_beams: 3  # Reduced from 3 to save memory
+  max_new_tokens: 20  # Increased for better VQA responses
+  length_penalty: 0.0
+  do_sample: false  # Use greedy decoding to avoid sampling issues
+  temperature: 1.0  # Not used when do_sample=false, but set for clarity

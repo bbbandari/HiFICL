@@ -1,0 +1,6 @@
+- runname=flops_comparison_s3v1
+- model_name=idefics2-8b-base
+- data.name=ok_vqa
+- data.num_query_samples=1000
+- batch_size=1
+- epochs=1

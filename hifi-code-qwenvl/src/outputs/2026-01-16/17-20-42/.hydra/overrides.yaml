@@ -1,0 +1,10 @@
+- runname=lora_s9v3-idev2-r-16
+- model_name=llava-interleave-7b
+- data.num_query_samples=300
+- data.name=coco
+- data.num_shot=1
+- encoder=lora
+- peft=lora
+- batch_size=2
+- accumulate_grad_batches=2
+- epochs=5

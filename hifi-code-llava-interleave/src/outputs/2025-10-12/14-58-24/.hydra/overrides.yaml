@@ -1,0 +1,5 @@
+- model_name=idefics-9b
+- record_dir=/root/autodl-tmp/origin_exp_idv1/results/record/fidel_v2-idefics-9b-vqav2-1000-5shot
+- data.name=vqav2
+- data.num_shot=5
+- data.num_query_samples=1000

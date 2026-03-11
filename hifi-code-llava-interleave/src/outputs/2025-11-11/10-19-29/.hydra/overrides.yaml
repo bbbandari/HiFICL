@@ -1,0 +1,8 @@
+- ckpt_path=/gz-data/v4-llava-interleave-geek/results/ckpt/mimic_s6v2-llava-interleave-7b-vqav2-1000-8shot/epoch-2
+- model_name=llava-interleave-7b
+- data.name=vqav2
+- data.num_shot=0
+- data.num_query_samples=10000
+- encoder=mimic
+- peft=mimic
+- batch_size=1

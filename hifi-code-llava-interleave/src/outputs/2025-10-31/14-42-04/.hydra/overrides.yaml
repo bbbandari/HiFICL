@@ -1,0 +1,8 @@
+- runname=fidel_s5v5
+- model_name=llava-interleave-7b
+- data.num_query_samples=1000
+- data.name=ok_vqa
+- data.num_shot=8
+- encoder=mimic_v19
+- peft=mimic_v4
+- epochs=1

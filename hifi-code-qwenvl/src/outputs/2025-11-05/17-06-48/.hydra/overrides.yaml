@@ -1,0 +1,8 @@
+- ckpt_path=/gz-data/v4-llava-interleave-geek/results/ckpt/fidel_s6v3-llava-interleave-7b-coco-1000-8shot/epoch-0
+- model_name=llava-interleave-7b
+- data.name=coco
+- data.num_shot=8
+- data.num_query_samples=1000
+- encoder=mimic_v20
+- peft=mimic_v4
+- batch_size=1

@@ -1,0 +1,8 @@
+- ckpt_path=/root/autodl-tmp/v3/results/ckpt/fidel_v2-llava-v1.6-vqav2-200-8shot/epoch-3
+- model_name=llava-v1.6
+- data.name=vqav2
+- data.num_shot=8
+- data.num_query_samples=200
+- encoder=mimic_v19
+- peft=mimic_v4
+- batch_size=1

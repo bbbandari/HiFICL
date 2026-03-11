@@ -1,0 +1,5 @@
+- model_name=llava-interleave-7b
+- record_dir=/home/ubuntu1/mimic/hifi_final_code/hifi-code-llava-interleave/results/record/lora_s13v2-idev2-r-16-llava-interleave-7b-coco-1000-1shot
+- data.name=coco
+- data.num_shot=1
+- data.num_query_samples=1000

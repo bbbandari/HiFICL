@@ -1,0 +1,8 @@
+- ckpt_path=/home/ubuntu1/mimic/hifi_final_code/hifi-code-qwenvl/results/ckpt/hifi_qwen_v3-Qwen3-VL-8B-Instruct-ok_vqa-1000-8shot/epoch-1
+- model_name=Qwen3-VL-8B-Instruct
+- data.name=ok_vqa
+- data.num_shot=0
+- data.num_query_samples=1000
+- encoder=mimic_v20
+- peft=mimic_v4
+- batch_size=1

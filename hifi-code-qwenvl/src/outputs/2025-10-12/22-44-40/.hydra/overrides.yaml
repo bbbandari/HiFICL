@@ -1,0 +1,8 @@
+- ckpt_path=/root/autodl-tmp/origin_exp_idv1/results/ckpt/fidel_v5-idefics-9b-ok_vqa-1000-5shot/epoch-4
+- model_name=idefics-9b
+- data.name=ok_vqa
+- data.num_shot=5
+- data.num_query_samples=1000
+- encoder=mimic_v15
+- peft=mimic_v10
+- eval_all_epochs=True

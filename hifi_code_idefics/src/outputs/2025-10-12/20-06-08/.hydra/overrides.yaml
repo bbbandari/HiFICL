@@ -1,0 +1,5 @@
+- runname=mimic_v19_eval_full
+- model_name=idefics2-8b-base
+- data.num_query_samples=
+- data.name=ok_vqa
+- data.num_shot=8

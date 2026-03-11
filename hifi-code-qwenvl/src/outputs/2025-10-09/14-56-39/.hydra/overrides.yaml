@@ -1,0 +1,7 @@
+- ckpt_path=/root/autodl-tmp/origin_exp_v6/results/ckpt/mimic_v13-idefics-9b-vqav2-1000-8shot/epoch-7
+- model_name=idefics-9b
+- data.name=vqav2
+- data.num_shot=8
+- data.num_query_samples=1000
+- encoder=mimic_v11
+- peft=mimic_v4

@@ -1,0 +1,10 @@
+- runname=mimic_v2
+- model_name=llava-interleave-7b
+- data.num_query_samples=200
+- data.name=vqav2
+- data.num_shot=8
+- encoder=mimic
+- peft=mimic
+- batch_size=1
+- accumulate_grad_batches=4
+- epochs=4

@@ -1,0 +1,37 @@
+resume: true
+query_set: ${data.name}
+query_set_size: null
+support_set: ${data.name}
+ckpt_path: /root/autodl-tmp/origin_exp_v4/results/ckpt/hifi_s7v8-idefics2-8b-base-coco-300-8shot/epoch-4
+batch_size: 1
+iterations: null
+max_skip_oom: 5
+generation_args:
+  num_beams: 1
+  max_new_tokens: 20
+  length_penalty: 0.0
+model_name: idefics2-8b-base
+dtype: torch.float16
+encoder:
+  model_strategy: Strategy.LM_LOSS
+  cls:
+    _target_: src.shift_encoder.AttnApproximatorDirect_final
+    attn_strategy: ShiftStrategy.VECTOR_SHIFT | ShiftStrategy.LEARNABLE_SHIFT_SCALE
+      | ShiftStrategy.MULTI_HEAD
+    ffn_strategy: ShiftStrategy.RECORD_HIDDEN_STATES
+    num_virtual_tokens: 8
+    lora_rank: 4
+peft:
+  name: mimic_v4
+  ce_loss_weight: 1.0
+  align_loss_weight: 0
+  lr: 0.005
+  max_epochs: 10
+data:
+  is_icl: false
+  seed: 3407
+  num_query_samples: 1000
+  name: coco
+  num_shot: 8
+  num_workers: 5
+  num_image_in_query: 1

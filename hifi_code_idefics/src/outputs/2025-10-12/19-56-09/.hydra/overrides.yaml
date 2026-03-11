@@ -1,0 +1,8 @@
+- ckpt_path=/root/autodl-tmp/origin_exp_v4/results/ckpt/mimic_v19-idefics2-8b-base-ok_vqa-1000-8shot/2/encoder_2.pth
+- model_name=idefics2-8b-base
+- data.name=ok_vqa
+- data.num_shot=8
+- data.num_query_samples=1000
+- +data.query_set_size=null
+- encoder=mimic_v19
+- peft=mimic_v4

@@ -1,0 +1,5 @@
+name: "hifi"
+ce_loss_weight: 1.0
+align_loss_weight: 0
+lr: 5e-3
+max_epochs: 10

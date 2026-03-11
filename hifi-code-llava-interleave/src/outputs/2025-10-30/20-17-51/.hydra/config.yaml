@@ -1,0 +1,39 @@
+runname: fidel_v2
+resume: true
+lr: ${peft.lr}
+weight_decay: 0.001
+warmup_step: 0.1
+batch_size: 2
+epochs: 4
+ce_loss_weight: ${peft.ce_loss_weight}
+align_loss_weight: ${peft.align_loss_weight}
+strategy: deepspeed_stage_2_offload
+accumulate_grad_batches: 2
+grad_clip_val: 1.0
+precision: 16-mixed
+save_when_override: false
+model_name: llava-interleave-7b
+dtype: torch.float16
+encoder:
+  model_strategy: Strategy.LM_LOSS
+  cls:
+    _target_: src.shift_encoder.AttnApproximatorDirect_final
+    attn_strategy: ShiftStrategy.VECTOR_SHIFT | ShiftStrategy.LEARNABLE_SHIFT_SCALE
+      | ShiftStrategy.MULTI_HEAD
+    ffn_strategy: ShiftStrategy.RECORD_HIDDEN_STATES
+    num_virtual_tokens: 4
+    lora_rank: 8
+peft:
+  name: mimic_v4
+  ce_loss_weight: 1.0
+  align_loss_weight: 0
+  lr: 0.005
+  max_epochs: 10
+data:
+  is_icl: false
+  seed: 3407
+  num_query_samples: 200
+  name: ok_vqa
+  num_shot: 8
+  num_workers: 5
+  num_image_in_query: 1

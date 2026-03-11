@@ -1,0 +1,8 @@
+- runname=fidel_v6
+- model_name=idefics-9b
+- data.num_query_samples=1000
+- data.name=ok_vqa
+- data.num_shot=5
+- encoder=mimic_v16
+- peft=mimic_v11
+- save_when_override=True

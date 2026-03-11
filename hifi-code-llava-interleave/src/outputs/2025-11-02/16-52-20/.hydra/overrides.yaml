@@ -1,0 +1,8 @@
+- ckpt_path=/root/autodl-tmp/v4-llava-interleave/results/ckpt/fidel_v6-llava-interleave-7b-ok_vqa-50-8shot/epoch-10
+- model_name=llava-interleave-7b
+- data.name=ok_vqa
+- data.num_shot=8
+- data.num_query_samples=1000
+- encoder=mimic_v19
+- peft=mimic_v4
+- batch_size=1

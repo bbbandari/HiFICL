@@ -1,0 +1,8 @@
+- ckpt_path=null
+- model_name=idefics2-8b-base
+- data.name=vqav2
+- data.num_shot=0
+- data.num_query_samples=1000
+- batch_size=2
+- iterations=500
+- resume=False

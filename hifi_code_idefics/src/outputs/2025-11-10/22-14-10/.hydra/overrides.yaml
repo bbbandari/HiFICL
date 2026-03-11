@@ -1,0 +1,5 @@
+- model_name=idefics2-8b-base
+- record_dir=/root/autodl-tmp/origin_exp_v4/results/record/mimic_s6v3-idefics2-8b-base-coco-1000-8shot
+- data.name=coco
+- data.num_shot=8
+- data.num_query_samples=1000

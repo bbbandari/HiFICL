@@ -1,0 +1,8 @@
+- runname=fidel_v1
+- model_name=llava-v1.6
+- data.num_query_samples=200
+- data.name=vqav2
+- data.num_shot=8
+- encoder=mimic_v19
+- peft=mimic_v4
+- epochs=7

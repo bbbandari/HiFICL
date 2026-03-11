@@ -1,0 +1,8 @@
+- ckpt_path=null
+- model_name=llava-interleave-7b
+- data.name=vqav2
+- data.num_shot=8
+- data.num_query_samples=1000
+- batch_size=2
+- iterations=20
+- resume=False

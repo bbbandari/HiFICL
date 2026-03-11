@@ -1,0 +1,5 @@
+- model_name=idefics2-8b-base
+- record_dir=/root/autodl-tmp/origin_exp_v4/results/record/live_s6v2-idefics2-8b-base-vqav2-1000-8shot
+- data.name=vqav2
+- data.num_shot=8
+- data.num_query_samples=1000

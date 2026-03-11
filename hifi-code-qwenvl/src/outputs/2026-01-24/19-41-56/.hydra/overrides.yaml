@@ -1,0 +1,5 @@
+- model_name=Qwen3-VL-8B-Instruct
+- record_dir=/home/ubuntu1/mimic/hifi_final_code/hifi-code-qwenvl/results/record/hifi_qwen-Qwen3-VL-8B-Instruct-coco-1000-8shot
+- data.name=coco
+- data.num_shot=8
+- data.num_query_samples=1000

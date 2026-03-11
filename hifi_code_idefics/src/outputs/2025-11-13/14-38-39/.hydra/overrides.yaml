@@ -1,0 +1,8 @@
+- runname=hifi_s8v2
+- model_name=idefics2-8b-base
+- data.num_query_samples=1000
+- data.name=ok_vqa
+- data.num_shot=8
+- encoder=mimic_v23
+- peft=mimic_v4
+- epochs=3

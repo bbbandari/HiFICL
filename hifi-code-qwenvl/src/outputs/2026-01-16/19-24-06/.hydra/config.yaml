@@ -1,0 +1,27 @@
+verbose: false
+metric_key: null
+topk: 1
+record_dir: /home/ubuntu1/mimic/hifi_final_code/hifi-code-llava-interleave/results/record/lora_s9v4-idev2-r-16-llava-interleave-7b-coco-500-1shot
+model_name: llava-interleave-7b
+dtype: torch.float16
+encoder:
+  model_strategy: Strategy.LM_LOSS | Strategy.LAYER_WISE_MSE
+  cls:
+    _target_: src.shift_encoder.AttnApproximator
+    attn_strategy: ShiftStrategy.VECTOR_SHIFT | ShiftStrategy.LEARNABLE_SHIFT_SCALE
+      | ShiftStrategy.MULTI_HEAD
+    ffn_strategy: ShiftStrategy.RECORD_HIDDEN_STATES
+peft:
+  name: mimic
+  ce_loss_weight: 0.5
+  align_loss_weight: 1
+  lr: 0.005
+  max_epochs: 10
+data:
+  is_icl: false
+  seed: 3407
+  num_query_samples: 500
+  name: coco
+  num_shot: 1
+  num_workers: 5
+  num_image_in_query: 1

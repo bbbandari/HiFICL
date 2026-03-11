@@ -1,0 +1,10 @@
+- runname=lora-idev2-r-16
+- model_name=idefics2-8b-base
+- data.num_query_samples=1000
+- data.name=coco
+- data.num_shot=1
+- encoder=lora
+- peft=lora
+- batch_size=2
+- accumulate_grad_batches=8
+- epochs=5

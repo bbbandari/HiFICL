@@ -1,0 +1,10 @@
+- runname=hifi_qwen
+- model_name=Qwen3-VL-8B-Instruct
+- data.num_query_samples=1000
+- data.name=ok_vqa
+- data.num_shot=8
+- encoder=mimic_v20
+- peft=mimic_v4
+- batch_size=1
+- accumulate_grad_batches=8
+- epochs=3

@@ -1,0 +1,18 @@
+defaults:
+  - _self_
+  - exp_settings
+
+runname: "default"
+resume: True
+lr: ${peft.lr}
+weight_decay: 1e-3
+warmup_step: 0.1
+batch_size: 2
+epochs: ${peft.max_epochs} # int or null. if null, decide by train.py
+ce_loss_weight: ${peft.ce_loss_weight}
+align_loss_weight: ${peft.align_loss_weight}
+strategy: deepspeed_stage_2_offload  # Options: "deepspeed_stage_2_offload" / "ddp"
+accumulate_grad_batches: 2
+grad_clip_val: 1.0
+precision: bf16-mixed
+save_when_override: false  # 是否强制从第一轮开始保存检查点
