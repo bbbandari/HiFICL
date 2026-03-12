@@ -9,6 +9,10 @@ mkdir -p "$SCRIPT_DIR"
 echo "==== $(date '+%F %T') | START $runname ====" | tee -a "$LOG_FILE"
 cd "$SCRIPT_DIR/../src/"
 
+# 修复libstdc++版本冲突问题
+export LD_LIBRARY_PATH=/usr/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu/libstdc++.so.6:$LD_LIBRARY_PATH
+export LD_PRELOAD=/usr/lib/x86_64-linux-gnu/libstdc++.so.6
+
 
 WANDB_MODE=disabled python -u pipeline.py \
     -r "$runname" \
