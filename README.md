@@ -1,11 +1,9 @@
 # HiFICL: High-Fidelity In-Context Learning for Multimodal Tasks
 
 <p align="center">
-<a href="https://arxiv.org/abs/XXXX.XXXXX">
-<img alt="Static Badge" src="https://img.shields.io/badge/arXiv-XXXX.XXXXX-red"></a>
+<a href="http://arxiv.org/abs/2603.12760">
+<img alt="Static Badge" src="https://img.shields.io/badge/arXiv-2603.12760-red"></a>
 </p>
-
-<img src="./assets/overview.png" alt="overview figure" style="display: block; margin: 0 auto; width: 90%;" />
 
 **HiFICL (High-Fidelity In-Context Learning)** is a framework that extends [MimIC](https://github.com/xxx/mimic) to support multiple multimodal models. By integrating lightweight learnable modules into different vision-language models, it demonstrates superior performance across various model architectures.
 
