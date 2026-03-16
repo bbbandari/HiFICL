@@ -111,12 +111,13 @@ Training framework implementation with configurable loss strategies:
 
 # Recommended Citation
 ```
-@InProceedings{YourName_2026_CVPR,
-    author    = {Your Name},
-    title     = {HiFICL: High-Fidelity In-Context Learning for Multimodal Tasks},
-    booktitle = {Proceedings of the Computer Vision and Pattern Recognition Conference (CVPR)},
-    month     = {June},
-    year      = {2026},
-    pages     = {XXXXX-XXXXX}
+@misc{li2026hificlhighfidelityincontextlearning,
+      title={HIFICL: High-Fidelity In-Context Learning for Multimodal Tasks}, 
+      author={Xiaoyu Li and Yuhang Liu and Zheng Luo and Xuanshuo Kang and Fangqi Lou and Xiaohua Wu and Zihan Xiong},
+      year={2026},
+      eprint={2603.12760},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2603.12760}, 
 }
 ```
