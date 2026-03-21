@@ -109,6 +109,12 @@ Training framework implementation with configurable loss strategies:
 3. Update `build_models` in `src/utils.py`
 4. Implement corresponding model hooks in `shift_encoder.py`
 
+## Contact
+
+**Yuhang Liu**
+- 📧 [202422090537@std.uestc.edu.cn](mailto:202422090537@std.uestc.edu.cn) (Primary)
+- 📧 [2292261265@qq.com](mailto:2292261265@qq.com) (Personal)
+
 # Recommended Citation
 ```
 @misc{li2026hificlhighfidelityincontextlearning,
