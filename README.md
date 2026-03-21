@@ -115,7 +115,7 @@ Training framework implementation with configurable loss strategies:
 - 📧 [202422090537@std.uestc.edu.cn](mailto:202422090537@std.uestc.edu.cn) (Primary)
 - 📧 [2292261265@qq.com](mailto:2292261265@qq.com) (Personal)
 
-# Recommended Citation
+## Recommended Citation
 ```
 @misc{li2026hificlhighfidelityincontextlearning,
       title={HIFICL: High-Fidelity In-Context Learning for Multimodal Tasks}, 
