@@ -112,7 +112,7 @@ Training framework implementation with configurable loss strategies:
 ## Contact
 
 **Yuhang Liu**
-- 📧 [202422090537@std.uestc.edu.cn](mailto:202422090537@std.uestc.edu.cn) (Primary)
+- 📧 [202422090537@std.uestc.edu.cn](mailto:202422090537@std.uestc.edu.cn) (Academic)
 - 📧 [2292261265@qq.com](mailto:2292261265@qq.com) (Personal)
 
 ## Recommended Citation
