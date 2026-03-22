@@ -60,7 +60,6 @@ This project extends MimIC with the following enhancements:
 
 1. **New Shift Strategy**: Implements a novel approach (see `src/shift_encoder.py`) for better approximating in-context demo effects
 2. **Extended Model Support**: Added support for Qwen2.5-VL and LLaVA-Interleave family models
-3. **Improved Architecture**: Enhanced shift encoder with NLICV_MLP_STATIC_SCALE and multi-head attention mechanisms
 
 For detailed method description, please refer to our paper.
 
