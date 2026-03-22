@@ -87,7 +87,7 @@ Each subdirectory (`hifi_code_idefics`, `hifi-code-qwenvl`, `hifi-code-llava-int
 Implements the HiFICL attention heads (`AttnApproximator`) and shift mechanisms. The core innovation includes:
 - `AttnApproximator`: Attention-based approximation for in-context demo effects
 - `AttnFFNShift`: Vector-based shift method (similar to LIVE)
-- `ShiftStrategy`: Configurable strategies including `NLICV_MLP_STATIC_SCALE` and `MULTI_HEAD`
+- `ShiftStrategy`: Configurable strategies `MULTI_HEAD`
 
 #### [`shift_model.py`](./src/shift_model.py)
 Training framework implementation with configurable loss strategies:
