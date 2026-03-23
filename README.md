@@ -43,7 +43,7 @@ pip install -r requirements.txt
 ### 2. Specify the root path of your models and datasets in `src/paths.py`
 
 Edit the paths in `src/paths.py` to match your local setup:
-- **Models**: idefics, Qwen2.5-VL, llava-interleave, etc.
+- **Models**: idefics, Qwen3-VL, llava-interleave, etc.
 - **Datasets**: VQAv2, OK-VQA, COCO, Flickr30k, MME, SEED-bench, etc.
 
 ## How to Run
