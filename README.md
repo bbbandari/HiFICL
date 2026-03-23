@@ -59,7 +59,7 @@ bash run_*.sh
 This project extends MimIC with the following enhancements:
 
 1. **New Shift Strategy**: Implements a novel approach (see `src/shift_encoder.py`) for better approximating in-context demo effects
-2. **Extended Model Support**: Added support for Qwen2.5-VL and LLaVA-Interleave family models
+2. **Extended Model Support**: Added support for Qwen3-VL and LLaVA-Interleave family models
 
 For detailed method description, please refer to our paper.
 
